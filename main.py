@@ -625,8 +625,8 @@ def draw():
             screen.draw.text(TITLE, center=(WIDTH/2, BUTTON_Y_START - 50), fontsize=70, color="white")
         
         if high_score > 0:
-            screen.draw.text(f"HIGH SCORE: {high_score}", center=(WIDTH/2, BUTTON_Y_START - 100), 
-                           fontsize=35, color="yellow")
+            screen.draw.text(f"HIGH SCORE: {high_score}", center=(WIDTH/2, BUTTON_Y_START - 14), 
+                           fontsize=20, color="yellow")
             
         menu_buttons[1].text = f"SOM: {'ON' if music_on else 'OFF'}"
         
@@ -780,5 +780,6 @@ def reset_game():
 
 if music_on:
     play_menu_music()
+
 
 pgzrun.go()
