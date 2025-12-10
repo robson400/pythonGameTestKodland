@@ -1,0 +1,1 @@
+Para o jogo funcionar basta instalar o Pyzero e o Pygame, e executar o Arquivo Python.
